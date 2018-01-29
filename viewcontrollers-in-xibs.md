@@ -19,5 +19,5 @@
 - Instantiate manually:
   `UINib(nibName: "TestViewController", bundle: nil).instantiate(withOwner: nil, options: nil).first as? TestViewController`
 
-- Use a helper library like `R.swift` (it will pick up your Xib name and camelCase it):
+- Use a helper library like [R.swift](https://github.com/mac-cain13/R.swift) (it will pick up your Xib name and camelCase it):
   `R.nib.testViewController.firstView(owner: nil)`
